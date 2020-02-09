@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/ng2-adsk-forge-viewer/tsconfig.lib.json",
             "project": "projects/ng2-adsk-forge-viewer/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng2-adsk-forge-viewer/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -137,6 +142,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng2-adsk-forge-viewer"
+    }
+  },
+  "defaultProject": "ng2-adsk-forge-viewer",
+  "cli": {
+    "analytics": "46f117fd-703a-47af-8747-1d2b66f43531"
+  }
 }

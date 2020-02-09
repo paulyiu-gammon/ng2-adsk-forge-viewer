@@ -85,15 +85,15 @@ export class ViewerComponent implements OnDestroy {
   private unsubscribe: Subject<boolean> = new Subject();
   private basicExt: BasicExtension;
 
-  public get Container(): HTMLElement {
-    return document.getElementById(this.containerId);
-  }
-
   /**
    * Helper to allow callers to specify documentId with or without the required urn: prefix
    */
   private static verifyUrn(documentId: string): string {
     return (documentId.startsWith('urn:')) ? documentId : `urn:${documentId}`;
+  }
+
+  public get Container(): HTMLElement {
+    return document.getElementById(this.containerId);
   }
 
   constructor(private script: ScriptService) {
