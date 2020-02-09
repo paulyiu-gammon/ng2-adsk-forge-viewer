@@ -23,4 +23,4 @@ before_script:
 - npm run build:app
 - npm run build:lib
 
-script: npm run test:lib
+script: npm run test:lib:prod
