@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0></a>
+## 2.0.0 (2020-02-09)
+
+- Upgrade component to Angular 9, but still using the View Engine compiler as recommended by the Angular
+ docs to maintain compatibility with Angular 8. 
+
 <a name="1.2.1></a>
 ## 1.2.1 (2019-11-07)
 
