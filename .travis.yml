@@ -20,7 +20,7 @@ before_install:
 before_script:
 - npm cache verify
 - npm run lint
-- npm run build:app
-- npm run build:lib
+- npm run build:app:prod
+- npm run build:lib:prod
 
-script: npm run test:lib:prod
+script: npm run test:lib
